@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChicDerm Solutions</title>
+    <style>
+        /* Reset some basic elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+        header {
+            background:black;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #hero {
+            background: #20b2aa;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        #hero .btn-primary {
+            background: #ff6347;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .service-card {
+            background: #f0e68c;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .service-card h3 {
+            color: #ff6347;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        form button {
+            background: #ff6347;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #20b2aa;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Image Styles */
+        .image-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ChicDerm Solutions</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Your Skin, Our Passion</h2>
+            <p>Bringing you vibrant and healthy skin with a touch of fun!</p>
+            <a href="#services" class="btn-primary">Discover More</a>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <h3>Acne Treatments</h3>
+            <p>Effective solutions for clear, healthy skin.</p>
+        </div>
+        <div class="service-card">
+            <h3>Anti-Aging</h3>
+            <p>Stay youthful and radiant with our advanced treatments.</p>
+        </div>
+        <div class="service-card">
+            <h3>Skin Care</h3>
+            <p>Personalized care for all your skin concerns.</p>
+        </div>
+       
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>, we believe in providing top-notch dermatological care with a splash of creativity. Our team of experts is dedicated to helping you achieve the healthiest and most vibrant skin possible.</p>
+    </section>
+
+    <!-- New Image Section -->
+    <section class="image-container">
+        <h2>Our Featured Skincare Products</h2>
+        <img src="C:\Users\Acer brand\Desktop\WEB DEV\HTML" alt="Featured Skincare Product">
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Got questions? Reach out to us and we’ll be happy to assist you!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ChicDerm Solutions. All rights reserved.</p>-+
+        </div>
+    </footer>
+</body>
+</html>
